@@ -165,7 +165,6 @@ h2 {
 
 .inscreva-se {
     background-color: rgb(29, 155, 240);
-    border: 1px solid rgb(29, 155, 240);
     color: white;
     width: 44%;
     text-align: center;
@@ -174,9 +173,10 @@ h2 {
     margin-top: 18px;
     padding: 10px 0;
     cursor: pointer;
+    border: 1px solid rgb(29, 155, 240);
+    text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .inscreva-se:hover {
@@ -184,11 +184,14 @@ h2 {
     transition-duration: 0.2s;
 }
 
+.inscreva-se a {
+    padding-right: 16px;
+}
+
 .inscreva-se span {
     color: white;
     font-size: 13.5px;
     padding-left: 16px;
-    padding-right: 16px;
 }
 
 .termos {
