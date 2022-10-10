@@ -1,0 +1,290 @@
+* {
+	font-family: 'Archivo Black', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-image {
+    display: flex;
+    position: relative;
+    width: 43%;
+}
+
+.left-image img {
+    height: 733px;
+    width: 508.625px;
+}
+
+.white-bird-background {
+    max-height: 380px;
+    height: 50%;
+    color: rgb(255, 255, 255);
+    -webkit-box-pack: center;
+    justify-content: center;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    vertical-align: text-bottom;
+    position: absolute;
+    top: 10em;
+    left: 3em;
+    max-width: 100%;
+    fill: currentcolor;
+    padding: 32px;
+    display: inline-block;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: start;
+    position: relative;
+    margin: 0 40px;
+    width: 100%;
+}
+
+.blue-bird {
+    padding-bottom: 12px;
+    padding-top: 30px;
+    height: 3rem;
+    color: rgb(29, 155, 240);
+    align-self: flex-start;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    vertical-align: text-bottom;
+    position: relative;
+    max-width: 100%;
+    fill: currentcolor;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 63px;
+    letter-spacing: -0.2px;
+    line-height: 84px;
+    margin: 48px 0;
+}
+
+h2 {
+    font-size: 31px;
+    line-height: 36px;
+    margin-bottom: 32px;
+}
+
+.google-button {
+    border: 1px solid rgb(218, 220, 224);
+    width: 44%;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.google-button:hover {
+    background-color: rgba(248,250,255,255);
+    transition-duration: 0.2s;
+}
+
+.google-button a, .apple-button a, .inscreva-se a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.google-logo {
+    height: 18px;
+    width: 18px;
+    margin-right: 8px;
+}
+
+.inscricao-google {
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    vertical-align: text-top;
+}
+
+.apple-button {
+    border: 1px solid rgb(218, 220, 224);
+    width: 44%;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.apple-button:hover {
+    background-color: rgb(230, 230, 230);
+    transition-duration: 0.2s;
+}
+
+.apple-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    vertical-align: text-bottom;
+    position: relative;
+    fill: currentcolor;
+    display: inline-block;
+}
+
+.inscricao-apple {
+    font-size: 14px;
+    line-height: 1em;
+}
+
+.ou {
+    height: 1px;
+    background-color: rgb(218, 220, 224);
+    text-align: center;
+    width: 45%;
+}
+
+.ou span {
+    background-color: white;
+    position: relative;
+    top: -0.5em;
+    padding: 0 10px;
+}
+
+.inscreva-se {
+    background-color: rgb(29, 155, 240);
+    border: 1px solid rgb(29, 155, 240);
+    color: white;
+    width: 44%;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-top: 18px;
+    padding: 10px 0;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.inscreva-se:hover {
+    background-color: rgba(47,140,216,255);
+    transition-duration: 0.2s;
+}
+
+.inscreva-se span {
+    color: white;
+    font-size: 13.5px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.termos {
+    color: rgb(83, 100, 113);
+    font-size: 11px; 
+    height: 32px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.termos a {
+    text-decoration: none;
+}
+
+.termos a:hover {
+    text-decoration: underline;
+    color: rgb(29, 155, 240);
+}
+
+.termos span {
+    color: rgb(29, 155, 240);
+
+}
+
+.entrar {
+    margin-top: 40px;
+}
+
+.entrar span {
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.entrar-button {
+    border: 1px solid rgb(218, 220, 224);
+    height: 38px;
+    width: 44%;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.entrar-button:hover {
+    background-color: rgba(232,245,253,255);
+    transition-duration: 0.2s;
+}
+
+.entrar-button span {
+    font-size: 15px;
+    line-height: 2.5em;
+    color: rgb(29, 155, 240);
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    padding: 12px 16px;
+    text-align: center;
+}
+
+.rodape-linha1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-linha1 a, .rodape-linha2 a {
+    color:  rgb(83, 100, 113);
+}
+
+.rodape-linha1 a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    color: rgb(83, 100, 113);
+    font-size: 10px;
+    margin: 4px 0;
+    padding-right: 16px;
+}
+
+.rodape-linha2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-linha2 a:hover {
+    text-decoration: underline;
+}
